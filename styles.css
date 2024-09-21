@@ -1,0 +1,160 @@
+body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/** main */
+main {
+   display: flex;
+   width: 97%;
+   height: 85vh;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.iphone-pic {
+   width: 450px;
+   height: 600px;
+   background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+   background-repeat: no-repeat;
+   margin-top: 10px;
+   margin-right: 5px;
+}
+
+.iphone-pic > img {
+   position: relative;
+   top: 25px;
+   left: 156px;
+}
+
+.right-side {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 9px;
+}
+
+.right-side > form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-self: stretch;
+   border: 1px solid #d1d1d1;
+   width: 350px;
+   padding: 10px 0;
+}
+
+.right-side > form > img {
+   width: 180px;
+   margin: 40px;
+   padding: 0 50px;
+}
+
+.right-side > form > input {
+   width: 245px;
+   padding: 10px;
+   font-size: 12px;
+   background-color: #f7f7f7;
+   border-radius: 2px;
+   border: 1px solid #d1d1d1;
+   margin: 2px 0;
+}
+
+.right-side > form > button {
+   width: 265px;
+   padding: 7px;
+   background-color: #0095f6;
+   opacity: 0.7;
+   color: #fff;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 14px;
+   margin-top: 12px;
+   margin-bottom: 15px;
+}
+
+.right-side > form > a {
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+   font-weight: bold;
+   color: #385185;
+   margin-bottom: 10px;
+}
+
+.right-side > form > a > img {
+   width: 17px;
+   margin-right: 10px;
+}
+
+.right-side > form > p {
+   font-size: 12px;
+   color: #00376b;
+   cursor: pointer;
+}
+
+.right-side > span {
+   border: 1px solid #d1d1d1;
+   width: 350px;
+   padding: 22px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+.right-side > span > a {
+   color: #0095f6;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 5px;
+}
+
+.right-side > .bottom {
+   display: flex;
+}
+
+.right-side > .bottom > a > img {
+   width: 135px;
+   margin: 0 5px;
+}
+
+/*? footer */
+footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-right: 20px;
+}
+
+footer > .routes {
+   margin-bottom: 18px;
+}
+
+footer > .routes > a {
+   text-decoration: none;
+   color: #808080;
+   font-size: 12px;
+   margin: 6px;
+}
+
+footer > .lang {
+   font-size: 12px;
+   color: #808080;
+}
+
+footer > .lang > select {
+   border: 1px solid transparent;
+   background-color: transparent;
+   cursor: pointer;
+   color: #808080;
+   outline: none;
+   margin-right: 10px;
+}
